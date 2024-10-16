@@ -1,0 +1,48 @@
+:root{
+    --verde: #2a4e2c;
+    --branco: #ffffff;
+    --preto: #000000;
+    --verde-claro: #659c60;
+}
+
+body{
+    background-color: var(--branco);
+    color: var(--verde);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    margin: 0;
+}
+
+
+header{
+    background-color: var(--verde-claro);
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--branco);
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--verde);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform(0.1s);
+}
+
